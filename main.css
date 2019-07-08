@@ -1,0 +1,114 @@
+/* ============== */
+/* BASIC SETUP */
+/* ============== */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  overflow-x: hidden; /* Fixes text overflow on small devices */
+}
+
+body {
+  background-color: rgb(225, 226, 233);
+}
+
+/* ============== */
+/* REUSABLE COMPONENTS */
+/* ============== */
+article {
+  background-color: white;
+  box-shadow: 5px 0 5px #8d8d8d;
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section {
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.section:after {
+  display: block;
+  height: 1px;
+  background-color: #9e9e9e;
+  content: " ";
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.section__info {
+  text-align: center;
+}
+
+.section__enacted:after { display: none; }
+
+.header {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+h1 {
+  padding: 50px 0;
+}
+
+h2 {
+  padding-bottom: 12px;
+  text-decoration: underline;
+}
+
+h3 {
+  padding-bottom: 5px;
+}
+
+img {
+  height: 220px;
+  width: auto;
+  padding: 5px 0;
+}
+
+.ul {
+  max-width: 800px;
+}
+
+.ul__info--small { font-size: 70%; }
+
+.p__description {
+  margin: 15px 0;
+}
+
+.p__description--small {
+  font-size: 70%;
+}
+
+.footer {
+    content: " ";
+    height: 100px;
+}
